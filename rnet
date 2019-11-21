@@ -17,4 +17,5 @@ novjccomp
 crtscts
 modem
 lock
-connect-delay
+connect-delay 3000
+persist
