@@ -10,5 +10,5 @@ OK 'AT+CMEE=1'
 TIMEOUT 5
 OK 'AT+CSQ'
 TIMEOUT 5
-OK 'AT^NDISDUP=1,1,"internet.emt.ee"'
+OK 'AT+CGDCONT=1,"IP","internet.emt.ee"'
 TIMEOUT 5
