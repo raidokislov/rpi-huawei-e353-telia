@@ -1,3 +1,4 @@
+connect "/usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet.emt.ee"
 /dev/ttyUSB0
 460800
 hide-password
@@ -8,7 +9,6 @@ replacedefaultroute
 ipcp-restart 10
 ipcp-accept-local
 ipcp-accept-remote
-connect "/usr/sbin/chat -V -f /etc/ppp/umts.chat"
 deflate 0
 bsdcomp 0
 noccp
