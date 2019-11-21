@@ -1,21 +1,10 @@
 connect "/usr/sbin/chat -v -f /etc/chatscripts/gprs -T internet.emt.ee"
 /dev/ttyUSB0
 460800
-hide-password
-noauth
 noipdefault
+usepeerdns
 replacedefaultroute
-0.0.0.0:10.64.64.64
-ipcp-restart 10
-ipcp-accept-local
-ipcp-accept-remote
-deflate 0
-bsdcomp 0
-noccp
-novj
-novjccomp
-crtscts
-modem
-lock
-connect-delay 3000
 persist
+noauth
+nocrtscts
+local
